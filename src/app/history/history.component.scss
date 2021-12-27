@@ -1,0 +1,204 @@
+// Шапка
+
+::ng-deep * {
+  margin: 0;
+  padding: 0;
+}
+
+//body {
+//  height: 1000px;
+//}
+
+.background {
+  background-image: url("https://look.com.ua/pic/201512/1920x1080/look.com.ua-140307.jpg");
+  backdrop-filter: blur(30px);
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+  width: 100vmax;
+  height: 100vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blur {
+  backdrop-filter: blur(30px);
+  width: 100vmax;
+  height: 100vmax;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  border: 4px double white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgba(1, 6, 38, 0.5);
+  box-shadow: 0px 4px 41px 22px #0339A6;
+}
+
+.textHeader {
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+  font-family: "Reprise Stamp Std";
+  font-size: 100px;
+  color: white;
+  margin-left: 400px;
+}
+
+.iconHeader {
+  display: flex;
+  flex-direction: row;
+  border: 4px double white;
+  align-items: center;
+
+}
+
+.iconHistory {
+  background-image: url("~icons/history.png");
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+
+.iconBasket {
+  background-image: url("~icons/basket.png");
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+
+.iconLogout {
+  background-image: url("~icons/logout.png");
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+
+// Категория
+
+.allInfo {
+  border: 4px double white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.info {
+  border: 4px double white;
+  background: rgba(0, 0, 0, 0.48);
+  box-shadow: 0px 4px 21px 118px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(52px);
+  height: 100%;
+  width: 1500px;
+
+}
+
+.nameCategory {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+}
+
+.quantity {
+  color: white;
+  font-size: 300%;
+  border: 1px solid #ffffff;
+  margin-top: 0px;
+}
+
+
+// Таблица
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ffffff;
+  padding: 8px 20px;
+  align-items: center;
+  margin: 0;
+}
+
+.product {
+  //margin-top: 72px;
+  color: white;
+  font-size: 300%;
+  border: 1px solid #ffffff;
+  margin-top: 0px;
+  width: 60%;
+}
+
+.price {
+  color: white;
+  font-size: 300%;
+  border: 1px solid #ffffff;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// Всего:
+
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  border: 1px solid #ffffff;
+  position: sticky;
+  bottom: 0;
+  min-height: 2em;
+  top: 93vh;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.totalName {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ffffff;
+  padding: 8px 20px;
+  align-items: center;
+  margin: 0;
+  width: 60%;
+
+
+}
+
+.totalPrice {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ffffff;
+  padding: 8px 20px;
+  align-items: center;
+  margin: 0;
+
+}
+
+
+

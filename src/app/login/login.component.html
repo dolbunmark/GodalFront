@@ -1,0 +1,10 @@
+<div class="back">
+
+  <form [formGroup]="form" (ngSubmit)="submit()" >
+  <div class="center__input">
+    <div><input placeholder="Login" type="email" formControlName="email"></div>
+    <div><input placeholder="Password" type="password" formControlName="password"></div>
+    <div  (click)="submit()"  class="custom__button" type="submit"><p>sing in</p></div>
+  </div>
+  </form>
+</div>

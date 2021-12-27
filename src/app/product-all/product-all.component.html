@@ -1,0 +1,57 @@
+<div class="background">
+  <div class="blur">
+    <div class="header">
+      <div></div>
+      <div class="textHeader" (click)="allProducts()">Online Shop</div>
+      <div class="iconHeader">
+        <div class="iconHistory" (click)="history()"></div>
+        <div class="iconBasket" (click)="basket()"></div>
+        <div class="iconLogout" (click)="logout()"></div>
+      </div>
+    </div>
+
+    <div class="allInfo">
+      <div class="info">
+        <div class="nameCategory">All Products</div>
+        <div class="items" *ngFor="let j of json">
+          <div class="products">
+            <div class="product" style="width: 40%;">{{j.title}}</div>
+            <div class="product" style="width: 40%;">{{j.price}}</div>
+            <div  style="width: 20%;">
+              <div class="custom__button" (click)="addProduct(j.title)">
+                <div>select</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="total">
+          <div class="totalName"></div>
+          <div class="totalPrice"></div>
+          <div class="totalBtn"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--  <div class="div__center">-->
+  <!--    <h1>ONLINE SHOP</h1>-->
+
+  <!--    <h2>ALL PRODUCT</h2>-->
+<!--      <div class="container__div" *ngFor="let j of json">-->
+<!--        <div class="product">-->
+<!--          <div style="width: 40%;">{{j.title}}</div>-->
+<!--          <div style="width: 40%;">{{j.price}}</div>-->
+<!--          <div style="width: 20%;">-->
+<!--            <div class="custom__button" (click)="addProduct(j.title)">-->
+<!--              <div>add</div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+  <!--  </div>-->
+</div>
+
+<!-- <div (click)="logout()">logout</div>-->

@@ -1,0 +1,53 @@
+
+.back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-image:url("https://look.com.ua/pic/201512/1920x1080/look.com.ua-140307.jpg") ;
+    height: 100%;
+    width: 100%;
+}
+.center__input{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin-bottom: 26px;
+    background: transparent;
+    border: white 2px solid;
+    height: 50px;
+    width: 220px;
+    border-radius: 70px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 10px;
+}
+.custom__button{
+    text-align: center;
+    height: 50px;
+    width: 220px;
+    background-color: #F2CB07;
+    border-radius: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin:  0;
+    padding: 0;
+    vertical-align: middle;
+}

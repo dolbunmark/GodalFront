@@ -1,0 +1,44 @@
+<!-- Шапка -->
+<div class="background">
+  <div class="blur">
+    <div class="header">
+      <div></div>
+      <div class="textHeader" (click)="allProducts()">Online Shop</div>
+      <div class="iconHeader">
+        <div class="iconHistory" (click)="history()"></div>
+        <div class="iconBasket" (click)="basket()"></div>
+        <div class="iconLogout" (click)="logout()"></div>
+      </div>
+    </div>
+
+    <!--  Категория  -->
+    <div class="allInfo">
+      <div class="info">
+        <div class="nameCategory">Basket</div>
+
+        <!--   Таблица     -->
+
+        <div class="products" *ngFor="let j of json.basketDtoList">
+          <div class="product">{{j.title}}</div>
+          <div class="price">{{j.bigDecimal}} $</div>
+          <div class="minus" (click)="minus(j.title)"></div>
+          <div class="quantity">{{j.quantity}}</div>
+          <div class="plus" (click)="plus(j.title)"></div>
+          <div class="cancel" (click)="cancel(j.title)"></div>
+        </div>
+
+        <!--        Total:   -->
+        <div class="total">
+          <div class="totalName">Total:</div>
+          <div class="totalPrice">{{json.orderPrice}} $</div>
+          <div class="totalBtn" (click)="buy()">
+            <div class="totalBtnName">Buy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
