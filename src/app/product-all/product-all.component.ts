@@ -31,6 +31,7 @@ export class ProductAllComponent implements OnInit {
   logout() {
     this.productService.logout().subscribe((data => {
       console.log(data);
+      this.router.navigate([""]);
     }))
   }
 

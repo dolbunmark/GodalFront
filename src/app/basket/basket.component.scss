@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-//body {
-//  height: 1000px;
-//}
-
 .background {
   background-image: url("https://look.com.ua/pic/201512/1920x1080/look.com.ua-140307.jpg");
   backdrop-filter: blur(30px);
@@ -31,7 +27,6 @@
 }
 
 .header {
-  border: 4px double white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -52,7 +47,6 @@
 .iconHeader {
   display: flex;
   flex-direction: row;
-  border: 4px double white;
   align-items: center;
 
 }
@@ -84,7 +78,6 @@
 // Категория
 
 .allInfo {
-  border: 4px double white;
   height: 100%;
   width: 100%;
   display: flex;
@@ -94,13 +87,11 @@
 }
 
 .info {
-  border: 4px double white;
   background: rgba(0, 0, 0, 0.48);
   box-shadow: 0px 4px 21px 118px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(52px);
   height: 100%;
   width: 1500px;
-
 }
 
 .nameCategory {
@@ -117,17 +108,14 @@
 .products {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #ffffff;
   padding: 8px 20px;
   align-items: center;
   margin: 0;
 }
 
 .product {
-  //margin-top: 72px;
   color: white;
   font-size: 300%;
-  border: 1px solid #ffffff;
   margin-top: 0px;
   width: 60%;
 }
@@ -135,14 +123,12 @@
 .price {
   color: white;
   font-size: 300%;
-  border: 1px solid #ffffff;
   margin-top: 0px;
 }
 
 .quantity {
   color: white;
   font-size: 300%;
-  border: 1px solid #ffffff;
   margin-top: 0px;
 }
 
@@ -151,7 +137,6 @@
   background-size: contain;
   width: 80px;
   height: 80px;
-  border: 1px solid #ffffff;
 }
 
 .plus {
@@ -159,7 +144,6 @@
   background-size: contain;
   width: 80px;
   height: 80px;
-  border: 1px solid #ffffff;
 }
 
 .cancel {
@@ -167,7 +151,6 @@
   background-size: contain;
   width: 80px;
   height: 80px;
-  border: 1px solid #ffffff;
 }
 
 
@@ -178,7 +161,6 @@
   flex-direction: row;
   justify-content: space-between;
   height: 100px;
-  border: 1px solid #ffffff;
   position: sticky;
   bottom: 0;
   min-height: 2em;
@@ -194,27 +176,22 @@
 .totalName {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #ffffff;
   padding: 8px 20px;
   align-items: center;
   margin: 0;
   width: 60%;
-
-
 }
 
 .totalPrice {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #ffffff;
   padding: 8px 20px;
   align-items: center;
   margin: 0;
-
+  width: 200px;
 }
 
 .totalBtn {
-  //border: 1px solid #ffffff;
   width: 400px;
   border-radius: 70px;
   background: rgba(39, 147, 242, 1);
@@ -223,24 +200,4 @@
   justify-content: center;
 }
 
-
-//.container__div {
-//
-//  width: 80%;
-//  margin: 4px auto 0 auto;
-//}
-//
-//.custom__button {
-//  display: flex;
-//  align-items: center;
-//  justify-content: center;
-//  border: 2px solid #ffffff;
-//  width: 300px;
-//  height: 60px;
-//  padding: 4px 0;
-//  border-radius: 60px;
-//  cursor: pointer;
-//  font-size: 230%;
-//  color: white;
-//}
 

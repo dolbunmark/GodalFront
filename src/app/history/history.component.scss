@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-//body {
-//  height: 1000px;
-//}
-
 .background {
   background-image: url("https://look.com.ua/pic/201512/1920x1080/look.com.ua-140307.jpg");
   backdrop-filter: blur(30px);
@@ -31,7 +27,6 @@
 }
 
 .header {
-  border: 4px double white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -52,7 +47,6 @@
 .iconHeader {
   display: flex;
   flex-direction: row;
-  border: 4px double white;
   align-items: center;
 
 }
@@ -84,7 +78,6 @@
 // Категория
 
 .allInfo {
-  border: 4px double white;
   height: 100%;
   width: 100%;
   display: flex;
@@ -94,7 +87,6 @@
 }
 
 .info {
-  border: 4px double white;
   background: rgba(0, 0, 0, 0.48);
   box-shadow: 0px 4px 21px 118px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(52px);
@@ -115,7 +107,6 @@
 .quantity {
   color: white;
   font-size: 300%;
-  border: 1px solid #ffffff;
   margin-top: 0px;
 }
 
@@ -125,17 +116,22 @@
 .products {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #ffffff;
+  flex-wrap: wrap;
+  flex-direction: column;
   padding: 8px 20px;
-  align-items: center;
+  align-items: stretch;
   margin: 0;
 }
 
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .product {
-  //margin-top: 72px;
   color: white;
   font-size: 300%;
-  border: 1px solid #ffffff;
   margin-top: 0px;
   width: 60%;
 }
@@ -143,62 +139,5 @@
 .price {
   color: white;
   font-size: 300%;
-  border: 1px solid #ffffff;
   margin-top: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-// Всего:
-
-.total {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 100px;
-  border: 1px solid #ffffff;
-  position: sticky;
-  bottom: 0;
-  min-height: 2em;
-  top: 93vh;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  text-align: center;
-  color: white;
-}
-
-.totalName {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid #ffffff;
-  padding: 8px 20px;
-  align-items: center;
-  margin: 0;
-  width: 60%;
-
-
-}
-
-.totalPrice {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid #ffffff;
-  padding: 8px 20px;
-  align-items: center;
-  margin: 0;
-
-}
-
-
-
